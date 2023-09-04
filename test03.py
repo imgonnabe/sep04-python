@@ -11,4 +11,11 @@ for sub in lol:
 
 def exam(num1,num2=2):
     print('a=', num1, 'b=', num2) #a= 20 b= 2 :,에 공백이 들어간다.
+
 exam(20)
+
+class Pass:
+    def byPass(self):
+        print("pass")
+
+pass=Pass()
