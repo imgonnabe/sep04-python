@@ -18,4 +18,5 @@ class Pass:
     def byPass(self):
         print("pass")
 
-pass=Pass()
+
+p=Pass()
