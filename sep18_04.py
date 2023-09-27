@@ -6,7 +6,9 @@ data=pd.DataFrame(
     columns=['수학','영어','음악','체육']
 )
 print(data)
+print(data.loc['인아']['체육'])
 print(data.loc[['서준', '우현']])
 print(data.loc['서준'])
 print(data.loc['서준':'우현'])
 print(data.loc[[True,True,True]])
+
